@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cal-1">
+       <h1>CALCULATOR!</h1>
+       <h6>Value 1: <input type="number" id="num1"></h6>
+       <h6>Value 2: <input type="number" id="num2"></h6>
+       <div class="cal">
+           <label for="">Sign:</label>
+          <select id="calculate"> 
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+           </select>
+          <button onclick="myfunction()">Submit</button> <br>
+       </div>
+       <div class="cal1">
+           <input type="number" id="result" readonly>
+       </div>
+    
+    </div>
+
+    <!-- Correctly link to your external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
